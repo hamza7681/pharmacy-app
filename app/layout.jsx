@@ -11,9 +11,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <Nav />
         <div className="w-full">{children}</div>
-        <Footer />
       </body>
     </html>
   );

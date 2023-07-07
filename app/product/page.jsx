@@ -1,7 +1,13 @@
+import Nav from "@/components/Header/Nav";
 import React from "react";
 
 const Product = () => {
-  return <h1>Product</h1>;
+  return (
+    <>
+      <Nav />
+      <h1>Product</h1>
+    </>
+  );
 };
 
 export default Product;
