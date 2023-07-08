@@ -22,7 +22,7 @@ const Nav = () => {
 
   return (
     <>
-      <nav className="flex justify-between items-center px-10 lg:px-14 py-4 shadow-xl">
+      <nav className="flex sticky bg-white top-0 justify-between items-center px-10 lg:px-14 py-4 shadow-xl">
         <Image
           src="/assets/logo.png"
           alt="logo"

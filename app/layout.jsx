@@ -1,6 +1,5 @@
-import Nav from "@/components/Header/Nav";
 import "../styles/globals.css";
-import Footer from "@/components/Footer";
+import "primereact/resources/primereact.min.css";
 
 export const metadata = {
   title: "Create Next App",
