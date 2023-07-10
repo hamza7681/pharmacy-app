@@ -11,11 +11,11 @@ const HeaderCarousel = () => {
   const images = [pic1, pic2];
   return (
     <div className="w-full max-h-[350px] md:max-h-[550px] overflow-hidden">
-      <Swiper spaceBetween={50} slidesPerView={1} style={{ zIndex: "-9999" }}>
+      <Swiper slidesPerView={1}>
         {images.map((val, index) => {
           return (
-            <SwiperSlide>
-              <Image key={index} src={val} alt="slider" />
+            <SwiperSlide key={index}>
+              <Image src={val} alt="slider" />
             </SwiperSlide>
           );
         })}

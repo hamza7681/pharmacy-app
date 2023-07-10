@@ -22,7 +22,10 @@ const Nav = () => {
 
   return (
     <>
-      <nav className="flex sticky bg-white top-0 justify-between items-center px-10 lg:px-14 py-4 shadow-xl">
+      <nav
+        className="flex sticky bg-white top-0 justify-between items-center px-10 lg:px-14 py-4 shadow-xl"
+        style={{ zIndex: "10" }}
+      >
         <Image
           src="/assets/logo.png"
           alt="logo"
